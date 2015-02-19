@@ -1,0 +1,10 @@
+<div class="page-header">
+    <h2>For {{ page.date | date: "%A, %B %e, %Y" }}{% if page.title %}<br><small>{{page.title}}</small>{% endif %}</h2>
+</div>
+<div class="row post-full">
+    <div class="col-md-2"></div>
+  <div class="col-md-8">
+      {{ content }}
+  </div>
+  <div class="col-md-2"></div>
+</div>

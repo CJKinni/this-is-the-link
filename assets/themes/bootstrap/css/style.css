@@ -1,0 +1,56 @@
+
+.summary p a, .post-full p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #444;
+  border-bottom: 1px solid #ccc;
+  }
+.page-header, .post-header {
+  text-align: center;
+}
+
+.page-header {
+  padding-bottom: 0px;
+  margin: 0 0 0 0;
+  border-bottom: none;
+}
+h1, h3 {
+  color: #e3210a;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+audio {
+  width: 100%;
+}
+
+.download {
+  font-style: oblique;
+  color: #888  !important;
+  font-weight: normal !important;
+}
+
+li a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.text-muted {
+  display: none;
+}
